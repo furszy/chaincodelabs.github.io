@@ -1,0 +1,220 @@
+body { 
+	font-family: 'Open Sans', serif;
+	font-weight: 300;
+	color: #474849;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: 'Open Sans', serif;
+	font-weight: 300;
+}
+
+*,
+*:before,
+*:after {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.clearfix {
+  *zoom: 1;
+}
+ .clearfix:before, .clearfix:after {
+	content: " ";
+	display: table; 
+}
+.clearfix:after {
+  clear: both;
+}
+
+@font-face {
+	font-family: 'icomoon';
+	src:url('fonts/icomoon.eot?3xmld2');
+	src:url('fonts/icomoon.eot?#iefix3xmld2') format('embedded-opentype'),
+		url('fonts/icomoon.woff?3xmld2') format('woff'),
+		url('fonts/icomoon.ttf?3xmld2') format('truetype'),
+		url('fonts/icomoon.svg?3xmld2#icomoon') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+	font-family: 'icomoon';
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+
+	/* Better Font Rendering =========== */
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+.icon-link:before {
+	content: "\e601";
+}
+
+a {
+	color: #000;
+	text-decoration: underline;
+}
+
+a:hover {
+	color: #444;
+}
+
+.main-section {
+	padding: 6em 0;
+}
+
+.main-section.dark-bg {
+	background: #111;
+	color: #fff;
+}
+
+/* .main-section h2 {
+	font-size: 1em;
+	text-transform: uppercase;
+	text-align: center;
+	letter-spacing: 0.1em;
+	padding-bottom: 1em;
+	border-bottom: 1px solid #bababa;
+	margin-bottom: 3em;
+	display: inline-block;
+	width: 15em;
+	position: relative;
+	left: 50%;
+	margin-left: -7.5em;
+}
+
+.main-section.dark-bg h2 {
+	color: #fff;
+	border-color: #444;
+} */
+
+
+
+/* nav */
+
+[data-magellan-expedition] {
+	padding: 0;
+	background: #111;
+	color: #fff;
+	overflow: hidden;
+}
+
+[data-magellan-expedition-clone] {
+	display: none;
+}
+
+.sub-nav {
+	padding: 0;
+	line-height: 2.75em;
+	overflow: hidden;
+	background: #929497;
+}
+
+.sub-nav dd a, .sub-nav dd.active a {
+	padding: 1em 2em;
+	overflow: hidden;
+	background: #929497;
+	color: rgba(255,255,255,0.8);
+}
+
+.sub-nav dd a:hover {
+	color: #fff;
+}
+
+.sub-nav dd.active a {
+	border-radius: 0;
+	background: #aaacaf;
+	color: #fff;
+}
+
+.sub-nav dd.active a:hover {
+	background: #aaacaf;
+	color: #fff;
+}
+
+.fa-ul i {
+	color: #ffda0d;
+}
+
+.fa-ul li {
+	margin: 0 0 0.75em 0;
+}
+
+
+
+/* intro */
+
+#intro {
+	background:url(intro-bg.png) center center no-repeat; 
+	background-size:cover;
+	text-align: center;
+	padding: 9em 0;
+}
+
+#intro h1 {
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 600;
+	font-size: 2.25em;
+	margin: 0;
+	color: #929497;
+}
+
+.sub-nav dd {
+	float: none;
+}
+
+
+
+/* mission */
+
+#mission {
+	padding: 7em 0;
+}
+
+#mission p {
+	font-size: 1.125em;
+	line-height: 1.8;
+}
+
+
+
+/* hiring */
+
+#hiring, #about-us {
+	padding-top: 0;
+}
+
+#hiring p, #about-us p {
+	line-height: 1.8;
+}
+
+#hiring p, #hiring li, #about-us p {
+	font-size: 1.125em;
+	font-weight: 400;
+}
+
+#hiring h2, #about-us h2 {
+	font-family: 'Montserrat', sans-serif;
+	text-transform: uppercase;
+	font-weight: 700;
+	color: #fff;
+	text-align: center;
+	margin: 0 0 1em;
+	padding: 0.75em 0;
+	background: #ffda0d;
+	font-size: 2.75em;
+}
+
+
+@media only screen and (max-width: 64em) {
+	html, body {
+		font-size: 10px;
+	}
+}

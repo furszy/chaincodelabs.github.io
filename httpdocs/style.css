@@ -187,20 +187,20 @@ a:hover {
 
 /* hiring */
 
-#hiring, #about-us {
+#hiring, #contact-us , #team {
 	padding-top: 0;
 }
 
-#hiring p, #about-us p {
+#hiring p, #contact-us p, #team p {
 	line-height: 1.8;
 }
 
-#hiring p, #hiring li, #about-us p {
+#hiring p, #hiring li, #contact-us p, #team p {
 	font-size: 1.125em;
 	font-weight: 400;
 }
 
-#hiring h2, #about-us h2 {
+#hiring h2, #contact-us h2, #team h2 {
 	font-family: 'Montserrat', sans-serif;
 	text-transform: uppercase;
 	font-weight: 700;
@@ -211,7 +211,6 @@ a:hover {
 	background: #ffda0d;
 	font-size: 2.75em;
 }
-
 
 @media only screen and (max-width: 64em) {
 	html, body {

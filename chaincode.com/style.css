@@ -217,3 +217,26 @@ a:hover {
 		font-size: 10px;
 	}
 }
+
+#residency h2 {
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: #fff;
+    text-align: center;
+    margin: 0 0 1em;
+    padding: 0.75em 0;
+    background: #ffda0d;
+    font-size: 2.75em;
+}
+#hiring p, #residency p, #about-us p {
+    line-height: 1.8;
+}
+#residency, #hiring, #about-us {
+    padding-top: 0;
+}
+
+#residency p {
+    font-size: 1.125em;
+    font-weight: 400;
+}

@@ -1,4 +1,4 @@
-body { 
+body {
 	font-family: 'Open Sans', serif;
 	font-weight: 300;
 	color: #474849;
@@ -22,7 +22,7 @@ h1, h2, h3, h4, h5, h6 {
 }
  .clearfix:before, .clearfix:after {
 	content: " ";
-	display: table; 
+	display: table;
 }
 .clearfix:after {
   clear: both;
@@ -152,7 +152,7 @@ a:hover {
 /* intro */
 
 #intro {
-	background:url(intro-bg.png) center center no-repeat; 
+	background-color: black;
 	background-size:cover;
 	text-align: center;
 	padding: 9em 0;
@@ -163,7 +163,7 @@ a:hover {
 	font-weight: 600;
 	font-size: 2.25em;
 	margin: 0;
-	color: #929497;
+	color: #ffda0d;
 }
 
 .sub-nav dd {
@@ -200,15 +200,15 @@ a:hover {
 	font-weight: 400;
 }
 
-#projects h2, #hiring h2, #contact-us h2, #team h2 {
+#projects h2, #hiring h2, #contact-us h2, #team h2, #residency h2 {
 	font-family: 'Montserrat', sans-serif;
 	text-transform: uppercase;
 	font-weight: 700;
-	color: #fff;
+	color: #ffda0d;
 	text-align: center;
 	margin: 0 0 1em;
 	padding: 0.75em 0;
-	background: #ffda0d;
+	background: black;
 	font-size: 2.75em;
 }
 
@@ -218,17 +218,6 @@ a:hover {
 	}
 }
 
-#residency h2 {
-    font-family: 'Montserrat', sans-serif;
-    text-transform: uppercase;
-    font-weight: 700;
-    color: #fff;
-    text-align: center;
-    margin: 0 0 1em;
-    padding: 0.75em 0;
-    background: #ffda0d;
-    font-size: 2.75em;
-}
 #hiring p, #residency p, #about-us p {
     line-height: 1.8;
 }

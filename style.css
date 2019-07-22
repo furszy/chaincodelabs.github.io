@@ -153,6 +153,7 @@ a:hover {
 
 #intro {
 	background: black url('img/logos/light_grey_chain.png') center center repeat;
+	background-size: 5pc;
 	text-align: center;
 	padding: 9em 0;
 }

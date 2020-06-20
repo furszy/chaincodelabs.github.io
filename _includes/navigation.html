@@ -1,0 +1,48 @@
+<header class="header-desktop">
+  <div class="nav-logo grow">
+    <a href="/"><img src="/assets/images/Chaincode_Logomark_Yellow.png" /></a>
+  </div>
+    <nav class="nav-items">
+          <a href="/team.html" {% if page.url == "/team.html" %}class="nav-active"{% endif %}>
+           Team
+          </a>
+          <a href="/projects.html" {% if page.url == "/projects.html" %}class="nav-active"{% endif %}>
+            Projects
+           </a>
+           <a href="/blog.html" {% if page.url == "/blog.html" %}class="nav-active"{% endif %}>
+            Blog
+           </a>
+           <a href="/jobs.html" {% if page.url == "/jobs.html" %}class="nav-active"{% endif %}>
+            Jobs
+           </a>
+           <a href="/about.html" {% if page.url == "/about.html" %}class="nav-active"{% endif %}>
+            About
+           </a>
+    </nav>
+<div class="theme-toggle"></div>
+</header>
+<header {% if page.url == "/" %}class="header-mobile index"{% endif %}{% if page.url != "/" %}class="header-mobile"{% endif %}>
+  <div {% if page.url == "/" %}class="hidden"{% endif %}{% if page.url != "/" %}class="nav-logo-mobile"{% endif %}>
+    <a href="/"><img src="/assets/images/Chaincode_Logo_White_Yellow.png" /></a>
+  </div>
+    <!-- <nav class="nav-items">
+          <a href="/team.html" {% if page.url == "/team.html" %}class="nav-active"{% endif %}>
+           Team
+          </a>
+          <a href="/projects.html" {% if page.url == "/projects.html" %}class="nav-active"{% endif %}>
+            Projects
+           </a>
+           <a href="/blog.html" {% if page.url == "/blog.html" %}class="nav-active"{% endif %}>
+            Blog
+           </a>
+           <a href="/jobs.html" {% if page.url == "/jobs.html" %}class="nav-active"{% endif %}>
+            Jobs
+           </a>
+           <a href="/about.html" {% if page.url == "/about.html" %}class="nav-active"{% endif %}>
+            About
+           </a>
+    </nav> -->
+<div class="nav-button-mobile">
+  <a href="/"><img src="/assets/images/ellipse-1.png"></a>
+</div>
+</header>

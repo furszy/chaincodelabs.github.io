@@ -1,0 +1,20 @@
+---
+layout: default
+title: Blog
+---
+
+<div class="blog-container">
+  <h2 class="archive-title">All Articles</h2>
+  <div class="blog-row">
+    {% for post in site.posts %}
+    <div>
+      <a href="{{ post.url }}">
+        <img src="{{ post.image }}" />
+      </a>
+      <h5 class="blog-category">{{ post.category | upcase}}</h5>
+      <h2>{{ post.title }}</h2>
+      <h5>BY {{ post.name | upcase}}</h5>
+    </div>
+    {% endfor %}
+  </div>
+</div>

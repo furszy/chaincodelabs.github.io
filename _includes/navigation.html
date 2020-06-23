@@ -1,6 +1,6 @@
 <header class="header-desktop">
   <div class="nav-logo grow">
-    <a href="/"><img src="/assets/images/Chaincode_Logomark_Yellow.png" /></a>
+    <a href="/"><img src="/assets/images/Chaincode_Logomark_Yellow.png" alt="yellow chaincode logo"/></a>
   </div>
     <nav class="nav-items">
           <a href="/team.html" {% if page.url == "/team.html" %}class="nav-active"{% endif %}>
@@ -23,26 +23,38 @@
 </header>
 <header {% if page.url == "/" %}class="header-mobile index"{% endif %}{% if page.url != "/" %}class="header-mobile"{% endif %}>
   <div {% if page.url == "/" %}class="hidden"{% endif %}{% if page.url != "/" %}class="nav-logo-mobile"{% endif %}>
-    <a href="/"><img src="/assets/images/Chaincode_Logo_White_Yellow.png" /></a>
+    <a href="/"><img src="/assets/images/Chaincode_Logo_White_Yellow.png" alt="yellow chaincode logo"/></a>
   </div>
-    <!-- <nav class="nav-items">
-          <a href="/team.html" {% if page.url == "/team.html" %}class="nav-active"{% endif %}>
-           Team
-          </a>
-          <a href="/projects.html" {% if page.url == "/projects.html" %}class="nav-active"{% endif %}>
-            Projects
-           </a>
-           <a href="/blog.html" {% if page.url == "/blog.html" %}class="nav-active"{% endif %}>
-            Blog
-           </a>
-           <a href="/jobs.html" {% if page.url == "/jobs.html" %}class="nav-active"{% endif %}>
-            Jobs
-           </a>
-           <a href="/about.html" {% if page.url == "/about.html" %}class="nav-active"{% endif %}>
-            About
-           </a>
-    </nav> -->
 <div class="nav-button-mobile">
-  <a href="/"><img src="/assets/images/ellipse-1.png"></a>
+  <input id="burger" type="checkbox" />
+
+
+<nav class="nav-items">
+  <label for="burger">
+    <img class="toggle-on"src="/assets/images/ellipse-1.png" alt="yellow circle icon">
+    <img class="toggle-off" src="/assets/images/add-1.png" alt="black x icon">
+  </label>
+  <a href="/team.html" {% if page.url == "/team.html" %}class="nav-active"{% endif %}>
+    <span class="mobile-nav-number">01</span>
+   <span class="mobile-nav-title">Team</span>
+  </a>
+  <a href="/projects.html" {% if page.url == "/projects.html" %}class="nav-active"{% endif %}>
+    <span class="mobile-nav-number">02</span>
+    Projects
+   </a>
+   <a href="/blog.html" {% if page.url == "/blog.html" %}class="nav-active"{% endif %}>
+    <span class="mobile-nav-number">03</span>
+    Blog
+   </a>
+   <a href="/jobs.html" {% if page.url == "/jobs.html" %}class="nav-active"{% endif %}>
+    <span class="mobile-nav-number">04</span>
+    Jobs
+   </a>
+   <a href="/about.html" {% if page.url == "/about.html" %}class="nav-active"{% endif %}>
+    <span class="mobile-nav-number">05</span>
+    About
+   </a>
+  </ul>
+</nav> 
 </div>
 </header>

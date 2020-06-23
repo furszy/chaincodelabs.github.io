@@ -1,13 +1,13 @@
 ---
-layout: default
-title: Projects
+layout: default-with-background
+title: Projects | Chaincode Labs
 ---
 
 <div class="projects-container">
   {% for item in site.data.projects %}
   <div class="projects-row">
     <div class="image-column">
-      <img src="{{ item.image }}" />
+      <img src="{{ item.image }}" alt="{{ item.alt }}" />
     </div>
     <div class="text-column">
       <h3 class="item-title">{{ item.title | upcase }}</h3>

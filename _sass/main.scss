@@ -11,11 +11,6 @@
 
 $yellow: #feda09;
 
-body,
-html {
-  height: 100%;
-}
-
 body {
   background-color: black;
   font-family: Avenir-Light;
@@ -42,7 +37,8 @@ main {
   display: block;
   text-align: center;
   .home-logo {
-    height: 5rem;
+    max-width: 100%;
+    height: auto;
   }
 }
 
@@ -64,13 +60,6 @@ header {
     height: 2.5rem;
     padding-left: 1rem;
   }
-}
-
-.grow {
-  transition: all 0.2s ease-in-out;
-}
-.grow:hover {
-  transform: scale(0.9);
 }
 
 .nav-items {
@@ -123,6 +112,13 @@ header {
         width: 28rem;
       }
     }
+    .image-column {
+      img {
+        width: 100%;
+        height: auto;
+        max-width: 100px;
+      }
+    }
   }
 }
 
@@ -164,8 +160,9 @@ header {
     .image-column {
       flex: 30%;
       img {
-        height: 15rem;
-        margin-right: 5rem;
+        width: 100%;
+        height: auto;
+        max-width: 200px;
       }
     }
     .item-description {
@@ -216,8 +213,8 @@ header {
   align-content: center;
   justify-content: center;
   img {
-    width: 52rem;
-    margin-bottom: 4rem;
+    width: 100%;
+    height: auto;
   }
 }
 
@@ -265,7 +262,8 @@ header {
   }
   .about-image {
     img {
-      height: 25rem;
+      width: 100%;
+      height: auto;
     }
   }
 }
@@ -306,19 +304,22 @@ header {
   .archive-title {
     margin-left: 4rem;
   }
-}
-.blog-row {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  div {
-    flex: 0 0 30%;
-    margin-bottom: 5rem;
-    img {
-      height: 15rem;
-    }
-    .blog-category {
-      color: $yellow;
+  .blog-row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    .blog-col {
+      flex: 0 0 100%;
+      margin-bottom: 5rem;
+      margin-right: 1rem;
+      margin-left: 1rem;
+      img {
+        max-width: 100%;
+        height: auto;
+      }
+      .blog-category {
+        color: $yellow;
+      }
     }
   }
 }
@@ -380,9 +381,8 @@ header {
   .post-content {
     flex: 80%;
     img {
-      margin-top: 1rem;
-      margin-bottom: 1rem;
-      height: 18rem;
+      width: 100%;
+      height: auto;
     }
   }
   .post-social {
@@ -411,8 +411,8 @@ header {
 }
 /* Responsive Design Media Queries */
 
-/* Phones */
-@media screen and (max-width: 767px) {
+/*Small and Medium Phones*/
+@media screen and (max-width: 424px) {
   .hidden {
     display: none;
   }
@@ -526,9 +526,9 @@ header {
     margin-bottom: 4rem;
   }
   .index-container {
-    .home-logo {
-      height: 2rem;
-    }
+    // .home-logo {
+    //   height: 2rem;
+    // }
     .home-title {
       margin-top: 2rem;
       font-size: 1.2rem;
@@ -546,8 +546,7 @@ header {
       }
       .image-column {
         img {
-          height: 8rem;
-          margin-right: 0;
+          max-width: 100px;
         }
       }
       .text-column {
@@ -577,12 +576,6 @@ header {
           font-size: 1.1rem;
         }
       }
-      .image-column {
-        img {
-          height: 4rem;
-          margin-bottom: 1rem;
-        }
-      }
     }
     .projects-row:first-child .text-column {
       border-top: none;
@@ -597,7 +590,7 @@ header {
       margin-left: 1rem;
     }
     .blog-row {
-      div {
+      .blog-col {
         margin-bottom: 2rem;
         h2 {
           font-size: 1.3rem;
@@ -612,11 +605,6 @@ header {
     margin-top: 7rem;
     margin-left: 0;
     margin-right: 0;
-    .post-content {
-      img {
-        height: 7rem;
-      }
-    }
     .post-head {
       h1 {
         margin-top: 2rem;
@@ -639,12 +627,6 @@ header {
     h1 {
       font-size: 1.5rem;
     }
-    .jobs-image {
-      img {
-        width: 18rem;
-        margin-bottom: 0;
-      }
-    }
     .jobs-title {
       flex: 55%;
     }
@@ -660,10 +642,260 @@ header {
         width: auto;
         margin-right: 0;
       }
-      .about-image {
-        img {
-          height: 23rem;
+    }
+    #first-row {
+      .about-icon {
+        flex: 35%;
+      }
+    }
+    .contact-row {
+      .about-icon {
+        flex: auto;
+      }
+      .about-contact {
+        flex: auto;
+        h2 {
+          font-size: 1.2rem;
         }
+      }
+    }
+  }
+}
+/*Large Phones and Small Tablets*/
+@media screen and (min-width: 425px) and (max-width: 767px) {
+  .hidden {
+    display: none;
+  }
+  .index {
+    justify-content: flex-end !important;
+  }
+  .header-desktop {
+    display: none;
+  }
+  .header-mobile {
+    justify-content: space-between;
+    .nav-logo-mobile {
+      margin-left: 1rem;
+      img {
+        height: 1rem;
+      }
+    }
+    .nav-button-mobile {
+      img {
+        margin-right: 2rem;
+        height: 1rem;
+      }
+      .nav-items {
+        font-size: 1.2rem;
+
+        text-align: left;
+        .mobile-nav-number {
+          font-size: 0.7rem;
+          margin-right: 1rem;
+        }
+        .nav-active {
+          border-bottom: none;
+        }
+        a {
+          display: flex;
+          align-items: center;
+          border-top: 1px solid rgba(0, 0, 0, 0.1);
+          color: black;
+        }
+      }
+    }
+  }
+  //Mobile Nav Menu
+
+  #burger {
+    visibility: hidden;
+  }
+  .nav-items label {
+    position: fixed;
+    top: 30px;
+    right: 20px;
+    height: 20px;
+    width: 15px;
+    z-index: 5;
+  }
+  label:hover {
+    cursor: pointer;
+  }
+
+  input ~ nav {
+    .toggle-on {
+      display: block;
+    }
+    .toggle-off {
+      display: none;
+    }
+    background: black;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 75px;
+    z-index: -1;
+    transition: 0.5s;
+    transition-delay: 0.5s;
+    overflow: hidden;
+    > a {
+      transition: 0.5s;
+      transition-delay: 0.5s;
+      text-decoration: none;
+      visibility: hidden;
+      color: black;
+      font-weight: 700;
+
+      padding: 30px;
+    }
+  }
+
+  input:checked ~ nav {
+    .toggle-on {
+      display: none;
+    }
+    .toggle-off {
+      display: block;
+    }
+    a {
+      visibility: visible;
+    }
+
+    padding-top: 4rem;
+    z-index: 3;
+    height: 100%;
+    transition-delay: 0s;
+    background: $yellow;
+  }
+  //End Mobile Nav Menu
+
+  main {
+    margin-left: 1rem;
+    margin-right: 1rem;
+    margin-bottom: 4rem;
+  }
+  .index-container {
+    // .home-logo {
+    //   height: 2rem;
+    // }
+    .home-title {
+      margin-top: 2rem;
+      font-size: 1.2rem;
+    }
+  }
+  .team-container {
+    margin-top: 10rem;
+    margin-left: 0;
+    margin-right: 0;
+    .team-row {
+      display: block;
+      .item-description {
+        font-size: 0.9rem;
+        line-height: 1.5rem;
+      }
+      .image-column {
+        img {
+          max-width: 150px;
+        }
+      }
+      .text-column {
+        h1 {
+          margin-top: 0.5rem;
+          margin-bottom: 0.5rem;
+          font-size: 1.5rem;
+        }
+      }
+    }
+
+    .team-social {
+      font-size: 0.9rem;
+    }
+  }
+
+  .projects-container {
+    margin-left: 0;
+    margin-right: 0;
+    .projects-row {
+      display: block;
+      padding-top: 1rem;
+      .text-column {
+        padding-bottom: 2rem;
+        .item-description {
+          width: 100%;
+          font-size: 1.1rem;
+        }
+      }
+    }
+    .projects-row:first-child .text-column {
+      border-top: none;
+      padding-top: 0;
+    }
+  }
+  .projects-row:first-child {
+    border-top: 1px solid rgba(255, 255, 255, 0.2);
+  }
+  .blog-container {
+    .archive-title {
+      margin-left: 16%;
+    }
+    .blog-row {
+      .blog-col {
+        max-width: 15rem;
+        margin-bottom: 2rem;
+        h2 {
+          font-size: 1.3rem;
+        }
+        .blog-category {
+          margin-top: 0.5rem;
+        }
+      }
+      .post-title {
+        width: 15rem;
+      }
+    }
+  }
+
+  .post-container {
+    margin-top: 7rem;
+    margin-left: 0;
+    margin-right: 0;
+    .post-head {
+      h1 {
+        margin-top: 2rem;
+        margin-bottom: 2rem;
+        font-size: 2rem;
+      }
+    }
+    .post-row {
+      display: block;
+      .post-author {
+        display: none;
+      }
+    }
+  }
+
+  .jobs-container {
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 8rem;
+    h1 {
+      font-size: 1.5rem;
+    }
+    .jobs-title {
+      flex: 55%;
+    }
+  }
+
+  .about-container {
+    margin-left: 0;
+    margin-right: 0;
+    .about-row {
+      display: block;
+      .about-text {
+        font-size: 1rem;
+        width: auto;
+        margin-right: 0;
       }
     }
     #first-row {
@@ -685,70 +917,278 @@ header {
   }
 }
 
-/* Tablets */
-@media only screen and (min-width: 768px) {
-  .header-mobile {
+/* Large Tablets */
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+  .hidden {
     display: none;
   }
-  main {
-    margin-left: 0;
-    margin-right: 0;
+  .index {
+    justify-content: flex-end !important;
   }
-  .index-container {
-    .home-logo {
-      height: 4rem;
-    }
+  .header-desktop {
+    display: none;
   }
-  .projects-container {
-    .projects-row {
-      .image-column {
-        flex: 30%;
-      }
-    }
-  }
-  .blog-container {
-    .archive-title {
-      margin-left: 8rem;
-    }
-    .blog-row {
-      div {
-        margin: 1rem;
-      }
-    }
-  }
-  .jobs-container {
-    .jobs-image {
+  .header-mobile {
+    justify-content: space-between;
+    .nav-logo-mobile {
+      margin-left: 1rem;
       img {
-        width: 37rem;
+        height: 1rem;
       }
     }
-  }
+    .nav-button-mobile {
+      img {
+        margin-right: 2rem;
+        height: 1rem;
+      }
+      .nav-items {
+        font-size: 1.2rem;
 
-  .about-container {
-    .about-row {
-      .about-text {
-        p {
-          margin: 0;
+        text-align: left;
+        .mobile-nav-number {
+          font-size: 0.7rem;
+          margin-right: 1rem;
+        }
+        .nav-active {
+          border-bottom: none;
+        }
+        a {
+          display: flex;
+          align-items: center;
+          border-top: 1px solid rgba(0, 0, 0, 0.1);
+          color: black;
         }
       }
     }
-    .contact-row {
-      .about-contact {
-        flex: 42%;
+  }
+  //Mobile Nav Menu
+
+  #burger {
+    visibility: hidden;
+  }
+  .nav-items label {
+    position: fixed;
+    top: 30px;
+    right: 20px;
+    height: 20px;
+    width: 15px;
+    z-index: 5;
+  }
+  label:hover {
+    cursor: pointer;
+  }
+
+  input ~ nav {
+    .toggle-on {
+      display: block;
+    }
+    .toggle-off {
+      display: none;
+    }
+    background: black;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 75px;
+    z-index: -1;
+    transition: 0.5s;
+    transition-delay: 0.5s;
+    overflow: hidden;
+    > a {
+      transition: 0.5s;
+      transition-delay: 0.5s;
+      text-decoration: none;
+      visibility: hidden;
+      color: black;
+      font-weight: 700;
+
+      padding: 30px;
+    }
+  }
+
+  input:checked ~ nav {
+    .toggle-on {
+      display: none;
+    }
+    .toggle-off {
+      display: block;
+    }
+    a {
+      visibility: visible;
+    }
+
+    padding-top: 4rem;
+    z-index: 3;
+    height: 100%;
+    transition-delay: 0s;
+    background: $yellow;
+  }
+  //End Mobile Nav Menu
+
+  main {
+    margin-left: 6rem;
+    margin-right: 6rem;
+    margin-bottom: 5rem;
+  }
+  .index-container {
+    // .home-logo {
+    //   height: 2rem;
+    // }
+    .home-title {
+      margin-top: 2rem;
+      font-size: 1.2rem;
+    }
+  }
+  .team-container {
+    margin-top: 10rem;
+    margin-left: 0;
+    margin-right: 0;
+    .team-row {
+      display: block;
+      .item-description {
+        font-size: 0.9rem;
+        line-height: 1.5rem;
+      }
+      .text-column {
+        h1 {
+          margin-top: 0.5rem;
+          margin-bottom: 0.5rem;
+          font-size: 1.5rem;
+        }
+      }
+    }
+
+    .team-social {
+      font-size: 0.9rem;
+    }
+  }
+
+  .projects-container {
+    margin-left: 0;
+    margin-right: 0;
+    .projects-row {
+      display: block;
+      padding-top: 1rem;
+      .text-column {
+        padding-bottom: 2rem;
+        .item-description {
+          width: 100%;
+          font-size: 1.1rem;
+        }
+      }
+    }
+    .projects-row:first-child .text-column {
+      border-top: none;
+      padding-top: 0;
+    }
+  }
+  .projects-row:first-child {
+    border-top: 1px solid rgba(255, 255, 255, 0.2);
+  }
+  // .blog-container {
+  //   .post-title {
+  //     width: 15rem;
+  //   }
+  //   .archive-title {
+  //     margin-left: 1rem;
+  //   }
+  //   .blog-row {
+  //     .blog-col {
+  //       max-width: 15rem;
+  //       margin-bottom: 2rem;
+  //       h2 {
+  //         font-size: 1.3rem;
+  //       }
+  //       .blog-category {
+  //         margin-top: 0.5rem;
+  //       }
+  //     }
+  //   }
+  // }
+  .blog-container {
+    .archive-title {
+      margin-left: 6%;
+    }
+    .blog-row {
+      .blog-col {
+        max-width: 15rem;
+        margin-bottom: 2rem;
+        h2 {
+          font-size: 1.3rem;
+        }
+        .blog-category {
+          margin-top: 0.5rem;
+        }
+      }
+      .post-title {
+        width: 15rem;
       }
     }
   }
   .post-container {
-    .post-content {
-      img {
-        height: 11rem;
+    margin-top: 7rem;
+    margin-left: 0;
+    margin-right: 0;
+    .post-head {
+      h1 {
+        margin-top: 2rem;
+        margin-bottom: 2rem;
+        font-size: 2rem;
+      }
+    }
+    .post-row {
+      display: block;
+      .post-author {
+        display: none;
+      }
+    }
+  }
+
+  .jobs-container {
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 8rem;
+    h1 {
+      font-size: 1.5rem;
+    }
+    .jobs-title {
+      flex: 55%;
+    }
+  }
+
+  .about-container {
+    margin-left: 0;
+    margin-right: 0;
+    .about-row {
+      display: block;
+      .about-text {
+        font-size: 1rem;
+        width: auto;
+        margin-right: 0;
+      }
+    }
+    #first-row {
+      .about-icon {
+        flex: 35%;
+      }
+    }
+    .contact-row {
+      .about-icon {
+        flex: auto;
+      }
+      .about-contact {
+        flex: auto;
+        h2 {
+          font-size: 1.2rem;
+        }
       }
     }
   }
 }
 
 /* Laptops/Desktops  */
-@media only screen and (min-width: 992px) {
+@media only screen and (min-width: 1024px) and (max-width: 1439px) {
   main {
     margin-left: 8rem;
     margin-right: 8rem;
@@ -765,74 +1205,105 @@ header {
     display: none;
   }
   .index-container {
-    padding-top: 15rem;
   }
-  .jobs-container {
-    .jobs-image {
-      img {
-        width: 53rem;
+  .projects-container {
+    margin-left: 2rem;
+    margin-right: 2rem;
+    .projects-row {
+      .text-column {
+        .item-description {
+          width: 26rem;
+        }
       }
     }
   }
   .about-container {
-    margin-left: 6rem;
-    margin-right: 6rem;
+    margin-left: 0rem;
+    margin-right: 0rem;
   }
 
   .blog-container {
+    .blog-row {
+      .blog-col {
+        flex: 0 0 33%;
+      }
+    }
     .archive-title {
-      margin-left: 2rem;
+      margin-left: 16%;
+    }
+    .post-title {
+      width: 15rem;
     }
   }
-
-  .post-container {
-    .post-content {
-      img {
-        height: 17rem;
+  .team-container {
+    margin-left: 5rem;
+    margin-right: 5rem;
+    .team-row {
+      .image-column {
+        flex: 30%;
+        margin-right: 1rem;
+      }
+      .text-column {
+        flex: 70%;
       }
     }
   }
 }
 
 /* Large Laptops/Desktops*/
-@media only screen and (min-width: 1440px) {
+@media only screen and (min-width: 1440px) and (max-width: 2559px) {
+  .header-mobile {
+    display: none;
+  }
+  main {
+    margin-left: 8rem;
+    margin-right: 8rem;
+  }
+  .index-container {
+    padding-top: 20rem;
+  }
   .team-container {
     margin-left: 10rem;
     margin-right: 10rem;
+    .team-row {
+      .image-column {
+        flex: 30%;
+      }
+      .text-column {
+        flex: 80%;
+      }
+    }
   }
   .projects-container {
-    margin-left: 12rem;
-    margin-right: 12rem;
+    margin-left: 15%;
+    margin-right: 15%;
+    .projects-row {
+      .text-column {
+        .item-description {
+          width: 30rem;
+        }
+      }
+    }
   }
 
   .blog-container {
     .archive-title {
-      margin-left: 12rem;
+      margin-left: 14%;
     }
     .blog-row {
-      div {
+      .blog-col {
         flex: 0 0 23%;
       }
+    }
+    .post-title {
+      width: 15rem;
     }
   }
   .post-container {
     .post-author {
       flex: 14%;
     }
-    .post-content {
-      img {
-        height: 28rem;
-      }
-    }
   }
-  .jobs-container {
-    .jobs-image {
-      img {
-        width: 79rem;
-      }
-    }
-  }
-
   .about-container {
     .about-row {
       .about-text {
@@ -849,22 +1320,31 @@ header {
 
 /* Extra Large Laptops/Desktops*/
 @media only screen and (min-width: 2560px) {
+  .header-mobile {
+    display: none;
+  }
   .index-container {
-    margin-top: 40rem;
+    margin-top: 25rem;
+    // .home-logo {
+    //   height: 7rem;
+    // }
   }
   .team-container {
-    margin-left: 40rem;
-    margin-right: 40rem;
+    margin-left: 30rem;
+    margin-right: 30rem;
     .team-row {
       .image-column {
-        flex: 0%;
+        flex: 20%;
+      }
+      .text-column {
+        flex: 80%;
       }
     }
   }
 
   .projects-container {
-    margin-left: 35rem;
-    margin-right: 35rem;
+    margin-left: 25%;
+    margin-right: 25%;
     .projects-row {
       .text-column {
         .item-description {
@@ -876,11 +1356,11 @@ header {
 
   .blog-container {
     .archive-title {
-      margin-left: 20rem;
+      margin-left: 7%;
     }
     .blog-row {
-      div {
-        flex: 0 0 24%;
+      .blog-col {
+        flex: 0 0 16%;
       }
     }
     .post-title {
@@ -890,30 +1370,15 @@ header {
   .post-container {
     margin-left: 20rem;
     margin-right: 20rem;
-    .post-content {
-      img {
-        height: 47rem;
-      }
-    }
   }
   .jobs-container {
     margin-left: 20rem;
     margin-right: 20rem;
-    .jobs-image {
-      img {
-        width: 119rem;
-      }
-    }
   }
   .about-container {
     margin-left: 20rem;
     margin-right: 20rem;
     .about-row {
-      .about-image {
-        img {
-          height: 42rem;
-        }
-      }
       .about-text {
         width: 70rem;
       }

@@ -1,10 +1,10 @@
-nathaniel_thomson-devaux:
-  name: "Nathaniel Thomson-Devaux"
-  handle: "@daphachar"
-  link: http://twitter.com/daphachar
-  bio: Nathaniel is a flying spaghetti monster from Little Italy.
-  image: /assets/images/yellow-rectangle.png
-  alt: Picture of Nathaniel Thomson-Devaux
+chaincode_labs:
+  name: "Chaincode Labs"
+  handle: "@chaincodelabs"
+  link: http://twitter.com/chaincodelabs
+  bio: Chaincode Labs is a Bitcoin research and development center
+  image: /assets/images/author.png
+  alt: Residency
 daryll_strawberry:
   name: "Daryll Strawberry"
   handle: "@daphachar"

@@ -1,20 +1,20 @@
-- title: "01"
+- title: "BITCOIN CORE"
   description: Chaincode engineers develop, review, test and maintain the <a href="https://www.bitcoincore.org/" target="_blank" rel="noopener">reference Bitcoin implementation</a>.
   image: assets/images/bitcoin-white-100x100.png
   alt: Picture of Bitcoin Logo with a White Background
-- title: "02"
+- title: "BIPS"
   description: Chaincode has contributed research and design for many of the <a href="https://github.com/bitcoin/bips" target="_blank" rel="noopener">recent improvements in the Bitcoin protocol</a>, e.g. Erlay and Compact Blocks.
   image: assets/images/bitcoinimp-130x130.png
   alt: Picture of Bitcoin Improvement Proposals Logo
-- title: "03"
+- title: "RESIDENCY"
   description: The <a href="https://residency.chaincode.com/" target="_blank" rel="noopener">Chaincode Residency</a> is a program for engineers to develop experience with Bitcoin. Chaincode has hosted several residencies focused on the Bitcoin protocol, Bitcoin Core, Lightning Network applications and the Lightning protocol.
   image: assets/images/chaincode-logo-yellow-100x100.png
   alt: Picture of Yellow Chaincode Logo
-- title: "04"
+- title: "OPTECH"
   description: <a href="http://bitcoinops.org/" target="_blank" rel="noopener">Bitcoin Optech</a> helps Bitcoin users and businesses integrate scaling technologies through workshops, documentation, weekly newsletters, original research, case studies and announcements.
   image: assets/images/optech-notext-100x100.png
   alt: Picture of Bitcoin Optech Logo
-- title: "05"
+- title: "PODCAST"
   description: <a href="https://podcast.chaincode.com/" target="_blank" rel="noopener">The Chaincode Podcast</a> brings you interviews with the most influential Bitcoin engineers about Bitcoin protocol development.
   image: assets/images/podcast-100x100.png
   alt: Picture of Chaincode Podcast Logo

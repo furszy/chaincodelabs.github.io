@@ -31,11 +31,6 @@
   link: https://twitter.com/twipsum
   image: assets/images/Caralie.jpeg
   alt: Picture of Caralie Chrisco
-- name: Marco Falke
-  title: Engineer
-  description: Marco is doing ongoing work to improve <a href="https://en.wikipedia.org/wiki/Fuzzing" target="_blank" rel="noopener">fuzz testing</a> on Bitcoin Core. He maintains <a href="https://marcofalke.github.io/btc_cov/" target="_blank" rel="noopener">btc_cov</a>, which generates regular coverage reports for the Bitcoin Core unit, functional and fuzz tests. Marco previously contributed to Bitcoin Core as a maintainer in his spare time. He moved to New York in 2017 to work full-time on open source software.
-  image: assets/images/Marco.jpeg
-  alt: Picture of Marco Falke
 - name: Carl Dong
   title: Engineer
   description: Carl is a contributor to rust-bitcoin and Bitcoin who is excited about systems engineering and incentive-compatible uses of permissionless money. Carl has worked on incorporating <a href="https://guix.gnu.org/" target="_blank">Guix</a> deterministic and bootstrappable builds into Bitcoin Core.  He previously worked at 21 and Blockstream before joining Chaincode.

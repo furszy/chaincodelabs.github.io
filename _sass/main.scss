@@ -26,6 +26,16 @@ body {
   background-attachment: fixed;
 }
 
+a {
+  font-family: Avenir-Light;
+  color: #feda09;
+  cursor: pointer;
+}
+
+a.h2:link {
+  text-decoration: none;
+}
+
 main {
   margin-left: 8rem;
   margin-right: 8rem;
@@ -205,9 +215,6 @@ header {
   padding-top: 1rem;
 }
 
-.jobs-number {
-  color: $yellow;
-}
 .jobs-image {
   display: flex;
   align-content: center;
@@ -278,6 +285,9 @@ header {
 }
 .about-icon {
   flex: 35%;
+  img {
+    vertical-align: middle;
+  }
 }
 .about-contact {
   color: $yellow;
@@ -592,8 +602,10 @@ header {
     .blog-row {
       .blog-col {
         margin-bottom: 2rem;
-        h2 {
-          font-size: 1.3rem;
+       .a {
+          h2 {
+            font-size: 1.3rem;
+          }
         }
         .blog-category {
           margin-top: 0.5rem;
@@ -851,6 +863,9 @@ header {
         }
       }
       .post-title {
+        a:link {
+          text-decoration: none;
+        }
         width: 15rem;
       }
     }
@@ -1122,6 +1137,9 @@ header {
         }
       }
       .post-title {
+        a:link {
+          text-decoration: none;
+        }
         width: 15rem;
       }
     }
@@ -1232,6 +1250,9 @@ header {
       margin-left: 16%;
     }
     .post-title {
+      a:link {
+        text-decoration: none;
+      }
       width: 15rem;
     }
   }
@@ -1296,6 +1317,9 @@ header {
       }
     }
     .post-title {
+      a:link {
+        text-decoration: none;
+      }
       width: 15rem;
     }
   }
@@ -1364,6 +1388,9 @@ header {
       }
     }
     .post-title {
+      a:link {
+        text-decoration: none;
+      }
       width: 15rem;
     }
   }

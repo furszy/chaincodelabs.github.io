@@ -19,6 +19,11 @@
   link: https://twitter.com/twipsum
   image: assets/images/john-newbury.jpg
   alt: Picture of John Newbery
+- name: Clara Shikhelman
+  title: Postdoctoral Researcher
+  description: Clara is researching the theoretical aspects of Bitcoin both from computer science and economic perspectives. Previously she was a postdoc at the Simons Institute at Berkley and at Caltech. Clara holds a PhD in mathematics from Tel Aviv University.
+  image: assets/images/Clara.jpg
+  alt: Picture of Clara Shikhelman
 - name: Russ Yanofsky
   title: Engineer
   description: Russ has done a lot of work to help separate Bitcoin Core’s node, wallet and GUI components. His work to introduce well-defined <a href="https://github.com/bitcoin/bitcoin/pull/10973" target="_blank" rel="noopener">node-wallet</a> and <a href="https://github.com/bitcoin/bitcoin/pull/10244" target="_blank" rel="noopener">node-GUI</a> has been merged to the project, and he continues to work on a long-term goal to <a href="https://github.com/bitcoin/bitcoin/pull/10102" target="_blank" rel="noopener">run the components in different processes</a>. Russ previously worked on web search at Google and set-top video software at Videon Central, Inc.

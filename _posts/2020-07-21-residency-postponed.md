@@ -4,6 +4,7 @@ title: "Chaincode 2020 Residency Postponed"
 author: chaincode_labs
 name: "Chaincode Labs"
 image: /assets/images/residencyupdate.png
+card_image: /assets/images/residency-update-twitter.png
 alt: Image of a yellow rectangle
 category: "News"
 ---

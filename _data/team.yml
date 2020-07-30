@@ -22,6 +22,8 @@
 - name: Clara Shikhelman
   title: Postdoctoral Researcher
   description: Clara is researching the theoretical aspects of Bitcoin both from computer science and economic perspectives. Previously she was a postdoc at the Simons Institute at Berkley and at Caltech. Clara holds a PhD in mathematics from Tel Aviv University.
+  social: "@ClaraShik"
+  link: https://twitter.com/ClaraShik
   image: assets/images/Clara.jpg
   alt: Picture of Clara Shikhelman
 - name: Russ Yanofsky

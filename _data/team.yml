@@ -2,21 +2,21 @@
   title: Co-Founder
   description: One of the early pioneers of automated trading and co-founded Hudson River Trading in 2002, where he spent 10 years working to make markets more efficient and improve market structure. He discovered his passion for Bitcoin in 2012, and in 2014 he co-founded Chaincode with Suhas. He has enjoyed contributing to Bitcoin Core and learning about the exciting nascent field of cryptocurrency ever since.
   social: "@morcosa"
-  link: https://twitter.com/twipsum
+  link: https://twitter.com/morcosa
   image: assets/images/alexm.jpeg
   alt: Picture of Alex Morcos
 - name: Suhas Daftuar
   title: Co-Founder
   description: Suhas co-founded Hudson River Trading LLC in 2002, where he spent over a decade developing HRT into a global trading firm and helping to shape the complex policy debates surrounding technology in financial markets. In 2014, Suhas co-founded Chaincode Labs with Alex to create a place for engineers and scientists to support the development of decentralized digital currencies and further our collective understanding of how such technologies can work.
   social: "@suhasdaftuar"
-  link: https://twitter.com/twipsum
+  link: https://twitter.com/suhasdaftuar
   image: assets/images/Suhas.png
   alt: Picture of Suhas Daftuar
 - name: John Newbery
   title: Bitcoin Protocol Engineer
   description: John has been contributing to Bitcoin Core since 2016. He set up <a href="https://bitcoinops.org/" target="_blank" rel="noopener">Bitcoin Optech</a> in 2018 to help Bitcoin companies adopt scaling technologies. He helps organize the <a href="https://bitdevs.org/" target="_blank" rel="noopener">bitdevs NYC meetups</a>, the <a href="https://residency.chaincode.com/" target="_blank" rel="noopener">Chaincode Residency programs</a> and the <a href="https://bitcoincore.reviews/" target="_blank" rel="noopener">weekly Bitcoin Core review club</a>.
   social: "@jfnewbery"
-  link: https://twitter.com/twipsum
+  link: https://twitter.com/jfnewbery
   image: assets/images/john-newbury.jpg
   alt: Picture of John Newbery
 - name: Clara Shikhelman
@@ -35,20 +35,20 @@
   title: People Operations Manager
   description: Caralie works with the Head of Special Projects to recruit and create policies to support the current team. She plans and executes events and provides overall operational support. She previously worked as a technical recruiter after transitioning from her long time former role as a talent manager for actors in theater, film, and television.
   social: "@CaralieCS"
-  link: https://twitter.com/twipsum
+  link: https://twitter.com/CaralieCS
   image: assets/images/Caralie.jpeg
   alt: Picture of Caralie Chrisco
 - name: Carl Dong
   title: Engineer
   description: Carl is a contributor to rust-bitcoin and Bitcoin who is excited about systems engineering and incentive-compatible uses of permissionless money. Carl has worked on incorporating <a href="https://guix.gnu.org/" target="_blank">Guix</a> deterministic and bootstrappable builds into Bitcoin Core.  He previously worked at 21 and Blockstream before joining Chaincode.
   social: "@carl_dong"
-  link: https://twitter.com/twipsum
+  link: https://twitter.com/carl_dong
   image: assets/images/Carl.jpeg
   alt: Picture of Carl Dong
 - name: Adam Jonas
   title: Head of Special Projects
   description: In addition to recruiting, he spearheads multiple educational initiatives including the <a href="http://residency.chaincode.com" target="_blank" rel="noopener">Chaincode Residency</a>. Jonas is passionate about providing the <a href="https://github.com/chaincodelabs/bitcoin-curriculum" target="_blank" rel="noopener">resources</a> contributors need to make an impact on Bitcoin and <a href="https://github.com/chaincodelabs/lightning-curriculum" target="_blank" rel="noopener">related technologies</a>. He previously worked as an engineer in the education space after transitioning from his former role developing the talents of professional baseball players.
   social: "@adamcjonas"
-  link: https://twitter.com/twipsum
+  link: https://twitter.com/adamcjonas
   image: assets/images/Jonas.jpeg
   alt: Picture of Adam Jonas

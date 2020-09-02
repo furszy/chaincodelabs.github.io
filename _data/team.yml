@@ -12,13 +12,13 @@
   link: https://twitter.com/suhasdaftuar
   image: assets/images/Suhas.png
   alt: Picture of Suhas Daftuar
-- name: John Newbery
-  title: Bitcoin Protocol Engineer
-  description: John has been contributing to Bitcoin Core since 2016. He set up <a href="https://bitcoinops.org/" target="_blank" rel="noopener">Bitcoin Optech</a> in 2018 to help Bitcoin companies adopt scaling technologies. He helps organize the <a href="https://bitdevs.org/" target="_blank" rel="noopener">bitdevs NYC meetups</a>, the <a href="https://residency.chaincode.com/" target="_blank" rel="noopener">Chaincode Residency programs</a> and the <a href="https://bitcoincore.reviews/" target="_blank" rel="noopener">weekly Bitcoin Core review club</a>.
-  social: "@jfnewbery"
-  link: https://twitter.com/jfnewbery
-  image: assets/images/john-newbury.jpg
-  alt: Picture of John Newbery
+- name: Pieter Wuille
+  title: Engineer
+  description: Pieter discovered Bitcoin in December 2010 and started contributing code to the project in May 2011. Since then, he has written significant parts of the reference client’s code, in particular, to improve performance and code organization. In addition to authoring and co-authoring 16 <a href="https://github.com/bitcoin/bips/" target="_blank" rel="noopener">Bitcoin Improvement Proposals</a>, Pieter contributed to the design of <a href="http://bitcoin.sipa.be/miniscript/" target="_blank" rel="noopener">Miniscript</a>, and co-authored papers on <a href="https://eprint.iacr.org/2018/068" target="_blank" rel="noopener">MuSig</a> and <a href="https://eprint.iacr.org/2017/1066.pdf" target="_blank" rel="noopener">Bulletproof</a>, and contributed to libraries like <a href="https://github.com/bitcoin-core/secp256k1" target="_blank" rel="noopener">libsecp256k1</a>, <a href="https://github.com/bitcoin-core/ctaes" target="_blank" rel="noopener">ctaes</a>, and <a href="https://github.com/sipa/minisketch" target="_blank" rel="noopener">minisketch</a>. Before Chaincode, Pieter was a co-founder and Core Engineer at Blockstream and worked as a Site Reliability Engineer at Google. Pieter received his Ph.D. in Computer Science at the University of Leuven, where he focused on programming language design. In his free time, Pieter likes climbing and playing board games.
+  social: "@pwuille"
+  link: https://twitter.com/pwuille
+  image: assets/images/pieter-wuille.jpg
+  alt: Picture of Pieter Wuille
 - name: Clara Shikhelman
   title: Postdoctoral Researcher
   description: Clara is researching the theoretical aspects of Bitcoin both from computer science and economic perspectives. Previously she was a postdoc at the Simons Institute at Berkley and at Caltech. Clara holds a PhD in mathematics from Tel Aviv University.
@@ -26,6 +26,13 @@
   link: https://twitter.com/ClaraShik
   image: assets/images/Clara.jpg
   alt: Picture of Clara Shikhelman
+- name: John Newbery
+  title: Bitcoin Protocol Engineer
+  description: John has been contributing to Bitcoin Core since 2016. He set up <a href="https://bitcoinops.org/" target="_blank" rel="noopener">Bitcoin Optech</a> in 2018 to help Bitcoin companies adopt scaling technologies. He helps organize the <a href="https://bitdevs.org/" target="_blank" rel="noopener">bitdevs NYC meetups</a>, the <a href="https://residency.chaincode.com/" target="_blank" rel="noopener">Chaincode Residency programs</a> and the <a href="https://bitcoincore.reviews/" target="_blank" rel="noopener">weekly Bitcoin Core review club</a>.
+  social: "@jfnewbery"
+  link: https://twitter.com/jfnewbery
+  image: assets/images/john-newbury.jpg
+  alt: Picture of John Newbery
 - name: Russ Yanofsky
   title: Engineer
   description: Russ has done a lot of work to help separate Bitcoin Core’s node, wallet and GUI components. His work to introduce well-defined <a href="https://github.com/bitcoin/bitcoin/pull/10973" target="_blank" rel="noopener">node-wallet</a> and <a href="https://github.com/bitcoin/bitcoin/pull/10244" target="_blank" rel="noopener">node-GUI</a> has been merged to the project, and he continues to work on a long-term goal to <a href="https://github.com/bitcoin/bitcoin/pull/10102" target="_blank" rel="noopener">run the components in different processes</a>. Russ previously worked on web search at Google and set-top video software at Videon Central, Inc.
@@ -40,7 +47,7 @@
   alt: Picture of Caralie Chrisco
 - name: Carl Dong
   title: Engineer
-  description: Carl is a contributor to rust-bitcoin and Bitcoin who is excited about systems engineering and incentive-compatible uses of permissionless money. Carl has worked on incorporating <a href="https://guix.gnu.org/" target="_blank">Guix</a> deterministic and bootstrappable builds into Bitcoin Core.  He previously worked at 21 and Blockstream before joining Chaincode.
+  description: Carl is a contributor to rust-bitcoin and Bitcoin who is excited about systems engineering and incentive-compatible uses of permissionless money. Carl has worked on incorporating <a href="https://guix.gnu.org/" target="_blank">Guix</a> deterministic and bootstrappable builds into Bitcoin Core. He previously worked at 21 and Blockstream before joining Chaincode.
   social: "@carl_dong"
   link: https://twitter.com/carl_dong
   image: assets/images/Carl.jpeg

@@ -52,6 +52,13 @@
   link: https://twitter.com/carl_dong
   image: assets/images/Carl.jpeg
   alt: Picture of Carl Dong
+- name: Mark Erhardt
+  title: Research Engineer
+  description: Mark enjoys research and development on Bitcoin, especially wallets and <a href="https://blog.bitgo.com/utxo-management-for-enterprise-wallets-5357dad08dd1" target="_blank">UTXO management</a>. He wrote his <a href="http://murch.one/wp-content/uploads/2016/11/erhardt2016coinselection.pdf" target="_blank">thesis on Coin Selection</a>, helps organize Bitcoin meetups, and is an avid <a href="https://bitcoin.stackexchange.com" target="_blank">contributor to Bitcoin Stack Exchange</a>. Previously, Mark tweaked the blockchain footprint of enterprise wallets at BitGo.
+  social: "@murchandamus"
+  link: https://twitter.com/murchandamus
+  image: assets/images/mark.png
+  alt: Picture of Mark Erhardt
 - name: Adam Jonas
   title: Head of Special Projects
   description: In addition to recruiting, he spearheads multiple educational initiatives including the <a href="http://residency.chaincode.com" target="_blank" rel="noopener">Chaincode Residency</a>. Jonas is passionate about providing the <a href="https://github.com/chaincodelabs/bitcoin-curriculum" target="_blank" rel="noopener">resources</a> contributors need to make an impact on Bitcoin and <a href="https://github.com/chaincodelabs/lightning-curriculum" target="_blank" rel="noopener">related technologies</a>. He previously worked as an engineer in the education space after transitioning from his former role developing the talents of professional baseball players.

@@ -26,13 +26,6 @@
   link: https://twitter.com/ClaraShik
   image: assets/images/Clara.jpg
   alt: Picture of Clara Shikhelman
-- name: John Newbery
-  title: Bitcoin Protocol Engineer
-  description: John has been contributing to Bitcoin Core since 2016. He set up <a href="https://bitcoinops.org/" target="_blank" rel="noopener">Bitcoin Optech</a> in 2018 to help Bitcoin companies adopt scaling technologies. He helps organize the <a href="https://bitdevs.org/" target="_blank" rel="noopener">bitdevs NYC meetups</a>, the <a href="https://residency.chaincode.com/" target="_blank" rel="noopener">Chaincode Residency programs</a> and the <a href="https://bitcoincore.reviews/" target="_blank" rel="noopener">weekly Bitcoin Core review club</a>.
-  social: "@jfnewbery"
-  link: https://twitter.com/jfnewbery
-  image: assets/images/john-newbury.jpg
-  alt: Picture of John Newbery
 - name: Russ Yanofsky
   title: Engineer
   description: Russ has done a lot of work to help separate Bitcoin Core’s node, wallet and GUI components. His work to introduce well-defined <a href="https://github.com/bitcoin/bitcoin/pull/10973" target="_blank" rel="noopener">node-wallet</a> and <a href="https://github.com/bitcoin/bitcoin/pull/10244" target="_blank" rel="noopener">node-GUI</a> has been merged to the project, and he continues to work on a long-term goal to <a href="https://github.com/bitcoin/bitcoin/pull/10102" target="_blank" rel="noopener">run the components in different processes</a>. Russ previously worked on web search at Google and set-top video software at Videon Central, Inc.

@@ -6,10 +6,10 @@
   description: Chaincode has contributed research and design for many of the <a href="https://github.com/bitcoin/bips" target="_blank" rel="noopener">recent improvements in the Bitcoin protocol</a>, e.g. Erlay and Compact Blocks.
   image: assets/images/bitcoinimp-130x130.png
   alt: Picture of Bitcoin Improvement Proposals Logo
-- title: "RESIDENCY"
-  description: The <a href="https://residency.chaincode.com/" target="_blank" rel="noopener">Chaincode Residency</a> is a program for engineers to develop experience with Bitcoin. Chaincode has hosted several residencies focused on the Bitcoin protocol, Bitcoin Core, Lightning Network applications and the Lightning protocol.
-  image: assets/images/chaincode-logo-yellow-100x100.png
-  alt: Picture of Yellow Chaincode Logo
+- title: "LEARNING"
+  description: Chaincode offers <a href="https://learning.chaincode.com/" target="_blank" rel="noopener">online seminars and in person residencies</a> for engineers to develop experience with Bitcoin. Chaincode has hosted several programs focused on the Bitcoin protocol, Bitcoin Core, Lightning Network applications and the Lightning protocol.
+  image: assets/images/learninglogo.png
+  alt: Picture of Learning Logo
 - title: "OPTECH"
   description: <a href="http://bitcoinops.org/" target="_blank" rel="noopener">Bitcoin Optech</a> helps Bitcoin users and businesses integrate scaling technologies through workshops, documentation, weekly newsletters, original research, case studies and announcements.
   image: assets/images/optech-notext-100x100.png

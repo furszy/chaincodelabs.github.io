@@ -31,13 +31,6 @@
   description: Russ has done a lot of work to help separate Bitcoin Core’s node, wallet and GUI components. His work to introduce well-defined <a href="https://github.com/bitcoin/bitcoin/pull/10973" target="_blank" rel="noopener">node-wallet</a> and <a href="https://github.com/bitcoin/bitcoin/pull/10244" target="_blank" rel="noopener">node-GUI</a> has been merged to the project, and he continues to work on a long-term goal to <a href="https://github.com/bitcoin/bitcoin/pull/10102" target="_blank" rel="noopener">run the components in different processes</a>. Russ previously worked on web search at Google and set-top video software at Videon Central, Inc.
   image: assets/images/Russ.jpeg
   alt: Picture of Russ Yanofsky
-- name: Caralie Chrisco
-  title: People Operations Manager
-  description: Caralie runs operations for <a href="http://learning.chaincode.com" target="_blank" rel="noopener">Chaincode's seminar series</a> and works with the Head of Special Projects on a variety of other educational initiatives. Internally she creates policies, plans events, and provides HR support. She previously worked as a technical recruiter after transitioning from her long time former role as a talent manager for actors in theater, film, and television.
-  social: "@Caralie_C"
-  link: https://twitter.com/Caralie_C
-  image: assets/images/caralie.png
-  alt: Picture of Caralie Chrisco
 - name: Carl Dong
   title: Engineer
   description: Carl is a contributor to rust-bitcoin and Bitcoin who is excited about systems engineering and incentive-compatible uses of permissionless money. Carl has worked on incorporating <a href="https://guix.gnu.org/" target="_blank">Guix</a> deterministic and bootstrappable builds into Bitcoin Core. He previously worked at 21 and Blockstream before joining Chaincode.

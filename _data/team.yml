@@ -52,6 +52,13 @@
   link: https://twitter.com/murchandamus
   image: assets/images/mark.png
   alt: Picture of Mark Erhardt
+- name: Martin Zumsande
+  title: Engineer
+  description: Martin started contributing to Bitcoin Core in 2019 and switched to full-time in late 2021. His main interest is in the peer-to-peer network of Bitcoin, in particular address relay. Before discovering Bitcoin, he received a PhD in physics and worked as a consultant in the banking industry.
+  social: "@lightlike1"
+  link: https://twitter.com/lightlike1
+  image: assets/images/martin.jpg
+  alt: Picture of Martin Zumsande  
 - name: Adam Jonas
   title: Head of Special Projects
   description: In addition to recruiting, he spearheads multiple educational initiatives including the <a href="http://residency.chaincode.com" target="_blank" rel="noopener">Chaincode Residency</a>. Jonas is passionate about providing the <a href="https://github.com/chaincodelabs/bitcoin-curriculum" target="_blank" rel="noopener">resources</a> contributors need to make an impact on Bitcoin and <a href="https://github.com/chaincodelabs/lightning-curriculum" target="_blank" rel="noopener">related technologies</a>. He previously worked as an engineer in the education space after transitioning from his former role developing the talents of professional baseball players.

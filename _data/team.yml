@@ -59,6 +59,13 @@
   link: https://twitter.com/lightlike1
   image: assets/images/martin.jpg
   alt: Picture of Martin Zumsande  
+  - name: Nikki Sigurdson
+  title: Researcher
+  description: Nikki is a cryptographer and works on the theoretical security of Bitcoin. She holds a degree from the University of Toronto. Previously, Nikki has worked as a researcher at the University of Toronto, the Fields Institute, and the University of Massachusetts Amherst. 
+ social: "@niksigurds"
+  link: https://twitter.com/niksigurds
+  image: assets/images/nikki.png
+  alt: Picture of Nikki Sigurdson
 - name: Adam Jonas
   title: Head of Special Projects
   description: In addition to recruiting, he spearheads multiple educational initiatives including the <a href="http://residency.chaincode.com" target="_blank" rel="noopener">Chaincode Residency</a>. Jonas is passionate about providing the <a href="https://github.com/chaincodelabs/bitcoin-curriculum" target="_blank" rel="noopener">resources</a> contributors need to make an impact on Bitcoin and <a href="https://github.com/chaincodelabs/lightning-curriculum" target="_blank" rel="noopener">related technologies</a>. He previously worked as an engineer in the education space after transitioning from his former role developing the talents of professional baseball players.

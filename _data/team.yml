@@ -59,10 +59,10 @@
   link: https://twitter.com/lightlike1
   image: assets/images/martin.jpg
   alt: Picture of Martin Zumsande  
-  - name: Nikki Sigurdson
+- name: Nikki Sigurdson
   title: Researcher
-  description: Nikki is a cryptographer and works on the theoretical security of Bitcoin. She holds a degree from the University of Toronto. Previously, Nikki has worked as a researcher at the University of Toronto, the Fields Institute, and the University of Massachusetts Amherst. 
- social: "@niksigurds"
+  description: Nikki is a cryptographer and works on the theoretical security of Bitcoin. She holds a degree from the University of Toronto. Previously, Nikki has worked as a researcher at the University of Toronto, the Fields Institute, and the University of Massachusetts Amherst.
+  social: "@niksigurds"
   link: https://twitter.com/niksigurds
   image: assets/images/nikki.png
   alt: Picture of Nikki Sigurdson

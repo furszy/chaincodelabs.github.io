@@ -14,7 +14,7 @@
   alt: Picture of Suhas Daftuar
 - name: Pieter Wuille
   title: Engineer
-  description: Pieter discovered Bitcoin in December 2010 and started contributing code to the project in May 2011. Since then, he has written significant parts of the reference client’s code, in particular, to improve performance and code organization. In addition to authoring and co-authoring 16 <a href="https://github.com/bitcoin/bips/" target="_blank" rel="noopener">Bitcoin Improvement Proposals</a>, Pieter contributed to the design of <a href="http://bitcoin.sipa.be/miniscript/" target="_blank" rel="noopener">Miniscript</a>, and co-authored papers on <a href="https://eprint.iacr.org/2018/068" target="_blank" rel="noopener">MuSig</a> and <a href="https://eprint.iacr.org/2017/1066.pdf" target="_blank" rel="noopener">Bulletproof</a>, and contributed to libraries like <a href="https://github.com/bitcoin-core/secp256k1" target="_blank" rel="noopener">libsecp256k1</a>, <a href="https://github.com/bitcoin-core/ctaes" target="_blank" rel="noopener">ctaes</a>, and <a href="https://github.com/sipa/minisketch" target="_blank" rel="noopener">minisketch</a>. Before Chaincode, Pieter was a co-founder and Core Engineer at Blockstream and worked as a Site Reliability Engineer at Google. Pieter received his Ph.D. in Computer Science at the University of Leuven, where he focused on programming language design. In his free time, Pieter likes climbing and playing board games.
+  description: Pieter discovered Bitcoin in December 2010 and started contributing code to the project in May 2011. Since then, he has written significant parts of the reference client's code, in particular, to improve performance and code organization. In addition to authoring and co-authoring 16 <a href="https://github.com/bitcoin/bips/" target="_blank" rel="noopener">Bitcoin Improvement Proposals</a>, Pieter contributed to the design of <a href="http://bitcoin.sipa.be/miniscript/" target="_blank" rel="noopener">Miniscript</a>, and co-authored papers on <a href="https://eprint.iacr.org/2018/068" target="_blank" rel="noopener">MuSig</a> and <a href="https://eprint.iacr.org/2017/1066.pdf" target="_blank" rel="noopener">Bulletproof</a>, and contributed to libraries like <a href="https://github.com/bitcoin-core/secp256k1" target="_blank" rel="noopener">libsecp256k1</a>, <a href="https://github.com/bitcoin-core/ctaes" target="_blank" rel="noopener">ctaes</a>, and <a href="https://github.com/sipa/minisketch" target="_blank" rel="noopener">minisketch</a>. Before Chaincode, Pieter was a co-founder and Core Engineer at Blockstream and worked as a Site Reliability Engineer at Google. Pieter received his Ph.D. in Computer Science at the University of Leuven, where he focused on programming language design. In his free time, Pieter likes climbing and playing board games.
   social: "@pwuille"
   link: https://twitter.com/pwuille
   image: assets/images/pieter-wuille.jpg
@@ -28,7 +28,7 @@
   alt: Picture of Clara Shikhelman
 - name: Russ Yanofsky
   title: Engineer
-  description: Russ has done a lot of work to help separate Bitcoin Core’s node, wallet and GUI components. His work to introduce well-defined <a href="https://github.com/bitcoin/bitcoin/pull/10973" target="_blank" rel="noopener">node-wallet</a> and <a href="https://github.com/bitcoin/bitcoin/pull/10244" target="_blank" rel="noopener">node-GUI</a> has been merged to the project, and he continues to work on a long-term goal to <a href="https://github.com/bitcoin/bitcoin/pull/10102" target="_blank" rel="noopener">run the components in different processes</a>. Russ previously worked on web search at Google and set-top video software at Videon Central, Inc.
+  description: Russ has done a lot of work to help separate Bitcoin Core's node, wallet and GUI components. His work to introduce well-defined <a href="https://github.com/bitcoin/bitcoin/pull/10973" target="_blank" rel="noopener">node-wallet</a> and <a href="https://github.com/bitcoin/bitcoin/pull/10244" target="_blank" rel="noopener">node-GUI</a> has been merged to the project, and he continues to work on a long-term goal to <a href="https://github.com/bitcoin/bitcoin/pull/10102" target="_blank" rel="noopener">run the components in different processes</a>. Russ previously worked on web search at Google and set-top video software at Videon Central, Inc.
   image: assets/images/Russ.jpeg
   alt: Picture of Russ Yanofsky
 - name: Carl Dong
@@ -38,6 +38,11 @@
   link: https://twitter.com/carl_dong
   image: assets/images/Carl.jpeg
   alt: Picture of Carl Dong
+- name: Kristen Coelho
+  title: Head of Operations
+  description: Leveraging her background in education and program management, Kristen is dedicated to supporting and optimizing Chaincode's educational initiatives and operational capacity. She's deeply passionate about designing and nurturing inclusive environments and experiences where learning and creativity can thrive. Kristen previously worked in the edtech industry, and is keenly expanding her knowledge of Bitcoin and related technologies.
+  image: assets/images/kristen.jpg
+  alt: Picture of Kristen Coelho
 - name: Sergei Tikhomirov
   title: Postdoctoral Researcher
   description: Sergei is researching the security and privacy of Bitcoin with a focus on the Lightning Network (i.e., <a href="https://eprint.iacr.org/2021/384" target="_blank" rel="noopener">channel balance probing</a>). He holds a <a href="https://hdl.handle.net/10993/44424" target="_blank" rel="noopener">PhD in computer science</a> from the University of Luxembourg, where he explored P2P-based attacks on Bitcoin. Sergei co-hosts a deeply technical <a href="https://basicblockradio.com/" target="_blank" rel="noopener">Russian-language podcast</a> discussing ideas from the broader blockchain space.
@@ -68,7 +73,7 @@
   alt: Picture of Nikki Sigurdson
 - name: Adam Jonas
   title: Head of Special Projects
-  description: In addition to recruiting, he spearheads multiple educational initiatives including the <a href="http://residency.chaincode.com" target="_blank" rel="noopener">Chaincode Residency</a>. Jonas is passionate about providing the <a href="https://github.com/chaincodelabs/bitcoin-curriculum" target="_blank" rel="noopener">resources</a> contributors need to make an impact on Bitcoin and <a href="https://github.com/chaincodelabs/lightning-curriculum" target="_blank" rel="noopener">related technologies</a>. He previously worked as an engineer in the education space after transitioning from his former role developing the talents of professional baseball players.
+  description: In addition to recruiting, he spearheads multiple educational initiatives, including the <a href="http://residency.chaincode.com" target="_blank" rel="noopener">Chaincode Residency</a>. Jonas works on providing the <a href="https://github.com/chaincodelabs/bitcoin-curriculum" target="_blank" rel="noopener">resources</a> contributors need to make an impact on Bitcoin and <a href="https://github.com/chaincodelabs/lightning-curriculum" target="_blank" rel="noopener">related technologies</a>. He previously worked as an engineer in the education space after transitioning from his former role developing the talents of professional baseball players.
   social: "@adamcjonas"
   link: https://twitter.com/adamcjonas
   image: assets/images/Jonas.jpeg

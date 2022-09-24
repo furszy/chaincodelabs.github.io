@@ -2,7 +2,7 @@
   description: The Chaincode Research Seminar exists to foster and encourage collaboration between the open-source community, industry, and academia towards research advances that benefit Bitcoin. See <a href="http://research.chaincode.com/research-seminar">the seminar page</a> for more information and updates.
   image: assets/images/chaincode-logo-yellow-100x100.png
   alt: Picture of Chaincode Logo
-- title: "AWARD"
-  description: The Bitcoin research prize is awarded to recognize outstanding results that advance Bitcoin and the Lightning Network. The results can be in cryptography, theoretical computer science, network theory, economics and neighboring fields. A committee of leading researchers will choose the winners annually. See <a href="http://research.chaincode.com/research-award">the award page</a> for more information.   
+- title: "PRIZE"
+  description: The Bitcoin research prize is awarded to recognize outstanding results that advance Bitcoin and the Lightning Network. The results can be in cryptography, theoretical computer science, network theory, economics and neighboring fields. A committee of leading researchers will choose the winners annually. See <a href="http://research.chaincode.com/research-prize">the award page</a> for more information.   
   image: assets/images/chaincode-logo-yellow-100x100.png
   alt: Picture of Chaincode Logo

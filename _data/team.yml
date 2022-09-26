@@ -50,6 +50,13 @@
   link: https://twitter.com/murchandamus
   image: assets/images/mark.png
   alt: Picture of Mark Erhardt
+- name: Carla Kirk-Cohen
+  title: Engineer
+  description: Carla is a software engineer working on the implementation and improvement of the Lightning Network <a href="https://github.com/lightning/bolts" target="_blank">specification</a>. She got her start in Bitcoin development at the 2019 <a href="https://residency.chaincode.com" target="_blank">Chaincode Residency</a> and has been passionate about paying it forward to help onboard new bitcoin developers ever since. She previously worked at Lightning Labs, where she focused on reliability improvements to LND and led the submarine swap team.
+  social: "@actuallycarlakc"
+  link: https://twitter.com/actuallycarlakc
+  image: assets/images/carla.png
+  alt: Picture of Carla Kirk-Cohen
 - name: Martin Zumsande
   title: Engineer
   description: Martin started contributing to Bitcoin Core in 2019 and switched to full-time in late 2021. His main interest is in the peer-to-peer network of Bitcoin, in particular address relay. Before discovering Bitcoin, he received a PhD in physics and worked as a consultant in the banking industry.

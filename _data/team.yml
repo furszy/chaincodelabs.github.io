@@ -31,13 +31,6 @@
   description: Russ has done a lot of work to help separate Bitcoin Core's node, wallet and GUI components. His work to introduce well-defined <a href="https://github.com/bitcoin/bitcoin/pull/10973" target="_blank" rel="noopener">node-wallet</a> and <a href="https://github.com/bitcoin/bitcoin/pull/10244" target="_blank" rel="noopener">node-GUI</a> has been merged to the project, and he continues to work on a long-term goal to <a href="https://github.com/bitcoin/bitcoin/pull/10102" target="_blank" rel="noopener">run the components in different processes</a>. Russ previously worked on web search at Google and set-top video software at Videon Central, Inc.
   image: assets/images/Russ.jpeg
   alt: Picture of Russ Yanofsky
-- name: Sergei Tikhomirov
-  title: Postdoctoral Researcher
-  description: Sergei is researching the security and privacy of Bitcoin with a focus on the Lightning Network (i.e., <a href="https://eprint.iacr.org/2021/384" target="_blank" rel="noopener">channel balance probing</a>). He holds a <a href="https://hdl.handle.net/10993/44424" target="_blank" rel="noopener">PhD in computer science</a> from the University of Luxembourg, where he explored P2P-based attacks on Bitcoin. Sergei co-hosts a deeply technical <a href="https://basicblockradio.com/" target="_blank" rel="noopener">Russian-language podcast</a> discussing ideas from the broader blockchain space.
-  social: "@serg_tikhomirov"
-  link: https://twitter.com/serg_tikhomirov
-  image: assets/images/sergei.jpg
-  alt: Picture of Sergei Tikhomirov
 - name: Mark Erhardt
   title: Research Engineer
   description: Mark enjoys research and development on Bitcoin, especially wallets and <a href="https://blog.bitgo.com/utxo-management-for-enterprise-wallets-5357dad08dd1" target="_blank">UTXO management</a>. He wrote his <a href="http://murch.one/wp-content/uploads/2016/11/erhardt2016coinselection.pdf" target="_blank">thesis on Coin Selection</a>, helps organize Bitcoin meetups, and is an avid <a href="https://bitcoin.stackexchange.com" target="_blank">contributor to Bitcoin Stack Exchange</a>. Previously, Mark tweaked the blockchain footprint of enterprise wallets at BitGo.

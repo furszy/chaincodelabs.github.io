@@ -51,14 +51,7 @@
   social: "@lightlike1"
   link: https://twitter.com/lightlike1
   image: assets/images/martin.jpg
-  alt: Picture of Martin Zumsande  
-- name: Nikki Sigurdson
-  title: Researcher
-  description: Nikki is a cryptographer and works on the theoretical security of Bitcoin. She holds a degree from the University of Toronto. Previously, Nikki has worked as a researcher at the University of Toronto, the Fields Institute, and the University of Massachusetts Amherst.
-  social: "@niksigurds"
-  link: https://twitter.com/niksigurds
-  image: assets/images/nikki.png
-  alt: Picture of Nikki Sigurdson
+  alt: Picture of Martin Zumsande
 - name: Sergi Delgado
   title: Engineer
   description: Sergi got involved in Bitcoin in 2015 as part of his master's degree program. He spent the following years researching various aspects of Bitcoin with a focus on P2P networks. He received his Ph.D. in Computer Science from the Autonomous University of Barcelona in 2018 and after a year in London working as a Postdoctoral Researcher at UCL, he transitioned from research to software development. Since 2019, Sergi has been developing and maintaining <a href="https://github.com/talaia-labs/rust-teos" target="_blank">The Eye of Satoshi</a>, a node-agnostic watchtower implementation.

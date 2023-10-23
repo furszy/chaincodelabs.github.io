@@ -72,8 +72,8 @@
   image: assets/images/gurwinder.jpg
   alt: Picture of Gurwinder Sahota
 - name: Adam Jonas
-  title: Head of Special Projects
-  description: In addition to recruiting, he spearheads multiple educational initiatives, including the <a href="http://residency.chaincode.com" target="_blank" rel="noopener">Chaincode Residency</a>. Jonas works on providing the <a href="https://github.com/chaincodelabs/bitcoin-curriculum" target="_blank" rel="noopener">resources</a> contributors need to make an impact on Bitcoin and <a href="https://github.com/chaincodelabs/lightning-curriculum" target="_blank" rel="noopener">related technologies</a>. He previously worked as an engineer in the education space after transitioning from his former role developing the talents of professional baseball players.
+  title: CEO
+  description: In addition to recruiting, he spearheads multiple educational initiatives, including the <a href="http://residency.chaincode.com" target="_blank" rel="noopener">Chaincode Residency</a>. Jonas works on providing the <a href="https://learning.chaincode.com" target="_blank" rel="noopener">resources</a> contributors need to make an impact on Bitcoin and <a href="https://chaincode.gitbook.io/seminars/lightning-protocol-development" target="_blank" rel="noopener">related technologies</a>. He previously worked as a software engineer and manager after transitioning from his former role developing the talents of professional baseball players.
   social: "@adamcjonas"
   link: https://twitter.com/adamcjonas
   image: assets/images/Jonas.jpeg

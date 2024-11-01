@@ -75,7 +75,7 @@
   alt: Picture of Antoine Poinsot
 - name: Abubakar Sadiq Ismail
   title: Engineer
-  description: Abubakar is a software engineer from Nigeria. He holds a bachelor's degree in Computer Science and was introduced to Bitcoin open source development during the 2023 <a href="https://www.btrust.tech/builders" target="_blank">Btrust Builders</a> Fellowship. Since then, he has actively contributed to Bitcoin through pull requests and code reviews. Abubakar is particularly interested in Empirical Data Analysis, Fee Estimation, Mempool Policy, and Performance Optimization.
+  description: Abubakar is a software engineer from Nigeria. He holds a bachelor's degree in Computer Science and was introduced to Bitcoin open source development during the 2023 <a href="https://www.btrust.tech/builders" target="_blank">Btrust Builders</a> Fellowship. Since then, he has actively contributed to Bitcoin Core through pull requests and code reviews. Abubakar is particularly interested in Empirical Data Analysis, Fee Estimation, Mempool Policy, and Performance Optimization.
   social: "@sadeeq_ismaela"
   link: https://twitter.com/sadeeq_ismaela
   image: assets/images/abubakar.jpg

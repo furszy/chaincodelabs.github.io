@@ -68,7 +68,7 @@
   alt: Picture of Matthew Zipkin
 - name: Antoine Poinsot
   title: Engineer
-  description: Antoine has been contributing to Bitcoin Core and other Bitcoin projects ([Rust-Bitcoin](https://github.com/rust-bitcoin), [Core-Lightning](https://github.com/elementsProject/lightning)) for several years. Interested in various aspects of Bitcoin, his recent work has been aimed at strengthening network resilience and enhancing the security of protocol implementations. Prior to joining Chaincode Labs, he co-founded [Wizardsardine](https://wizardsardine.com), a Bitcoin security company.
+  description: Antoine has been contributing to Bitcoin Core and other Bitcoin projects (<a href="https://github.com/rust-bitcoin" target="_blank" rel="noopener">Rust-Bitcoin</a> and <a href="https://github.com/elementsProject/lightning" target="_blank" rel="noopener">Core-Lightning</a>) for several years. Interested in various aspects of Bitcoin, his recent work has been aimed at strengthening network resilience and enhancing the security of protocol implementations. Prior to joining Chaincode Labs, he co-founded <a href="https://wizardsardine.com" target="_blank" rel="noopener">Wizardsardine</a>, a Bitcoin security company.
   social: "@darosior"
   link: https://twitter.com/darosior
   image: assets/images/antoine.jpg
